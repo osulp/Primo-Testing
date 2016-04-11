@@ -10,8 +10,7 @@ describe 'On My Account > Personal Settings form' do
 
   before(:context) do
     @driver = Selenium::WebDriver.for :firefox
-    # @base_url = 'http://search.library.oregonstate.edu/'
-    @base_url = 'http://alliance-primo-sb.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?vid=OSU' # Primo Sandbox
+    @base_url = 'http://search.library.oregonstate.edu/'
     @driver.manage.timeouts.implicit_wait = 15
 
     # Run this as an ONID user.

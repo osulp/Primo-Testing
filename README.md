@@ -10,7 +10,7 @@ changing the symbol in this line `@driver = Selenium::WebDriver.for :firefox` in
 To Run
 -----------------
 From the command line, set any ENV variables as shown below and specify the test(s) to be run.  The default format for 
-output is **documentation** which is colored and verbose.
+output is **documentation** which is color coded and verbose.
  
 `rspec spec/scope_on_change.rb`
 
